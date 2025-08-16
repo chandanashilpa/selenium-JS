@@ -6,7 +6,7 @@
         "description": "",
         "id": "log-in;to-log-into-the-site",
         "keyword": "Scenario",
-        "line": 3,
+        "line": 4,
         "name": "To log into the site",
         "steps": [
           {
@@ -14,46 +14,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 130292400
+              "duration": 189432100
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "I am on login page",
             "match": {
               "location": "features\\step_definitions\\login_def.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 468099
+              "duration": 764999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
+            "line": 6,
             "name": "I enter valid creds",
             "match": {
               "location": "features\\step_definitions\\login_def.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 2554332599
+              "duration": 3220773500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
+            "line": 7,
             "name": "I log into products page",
             "match": {
               "location": "features\\step_definitions\\login_def.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 31593400
+              "duration": 27504300
             }
           },
           {
@@ -61,19 +61,29 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3891399
+              "duration": 917800
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@smoketest",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "log-in",
-    "line": 1,
+    "line": 2,
     "keyword": "Feature",
     "name": "Log In",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@smoketest",
+        "line": 1
+      }
+    ],
     "uri": "features\\login.feature"
   }
 ]

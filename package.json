@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js",
-    "report1": "cucumber-js --format json:reports/json/cucumber_report.json",
-    "report": "node reports/generateReport.js",
+    "report1": "cucumber-js --format json:genreports/json/cucumber_report.json",
+    "report": "node genreports/generatereports.js",
     "test:report": "npm run report1 && npm run report"
   },
   "author": "",
