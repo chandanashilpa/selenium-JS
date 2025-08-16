@@ -1,12 +1,12 @@
 pipeline {
   agent any
   tools {
-    nodejs "NodeJS-16"  // The name you gave in Global Tool Config
+    nodejs "nodejs24"  // The name you gave in Global Tool Config
   }
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/your-username/selenium-js-cucumber.git'
+        git branch: 'main', url: 'https://github.com/chandanashilpa/selenium-JS/'
       }
     }
     stage('Install Dependencies') {
