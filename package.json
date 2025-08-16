@@ -1,0 +1,22 @@
+{
+  "name": "cucumberjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "report1": "cucumber-js --format json:reports/json/cucumber_report.json",
+    "report": "node reports/generateReport.js",
+    "test:report": "npm run report1 && npm run report"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "multiple-cucumber-html-reporter": "^3.9.3"
+  },
+  "dependencies": {
+    "chromedriver": "^138.0.0",
+    "selenium-webdriver": "^4.35.0"
+  }
+}

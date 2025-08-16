@@ -1,0 +1,79 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "log-in;to-log-into-the-site",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "To log into the site",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 130292400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on login page",
+            "match": {
+              "location": "features\\step_definitions\\login_def.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter valid creds",
+            "match": {
+              "location": "features\\step_definitions\\login_def.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2554332599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I log into products page",
+            "match": {
+              "location": "features\\step_definitions\\login_def.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31593400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3891399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "log-in",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Log In",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
