@@ -1,3 +1,4 @@
+@smoketest
 Feature: Log In
 
 Scenario: To log into the site
