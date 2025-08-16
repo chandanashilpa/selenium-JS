@@ -6,23 +6,19 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/chandanashilpa/selenium-JS/'
+        git branch: 'main', url: 'https://github.com/chandanashilpa/selenium-JS.git'
       }
     }
     stage('Install Dependencies') {
       steps {
-        sh 'npm install'
+        bat 'npm install'
       }
     }
     stage('Run Tests') {
       steps {
-        sh 'npm test'
+        bat 'npm test'
       }
     }
   }
-  post {
-    always {
-      junit '**/reports/*.xml'  // If you set up JUnit/Cucumber reports
-    }
-  }
+
 }
